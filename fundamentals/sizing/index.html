@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>typography</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!--width-->
+    <h1>width all around</h1>
+    <div class="bg-teal-100 p-5">
+      <div class="bg-red-600 m-1 p-5 w-0">0</div>
+      <div class="bg-red-600 m-1 p-5 w-1">1</div>
+      <div class="bg-red-600 m-1 p-5 w-1.5">1.5</div>
+      <div class="bg-red-600 m-1 p-5 w-32">32</div>
+      <div class="bg-red-600 m-1 p-5 w-64">64</div>
+      <div class="bg-red-600 m-1 p-5 w-96">96</div>
+    </div>
+    <!--percentages-->
+    <h1>width all around</h1>
+    <div class="bg-teal-100 p-5">
+      <div class="bg-red-600 m-1 p-5 w-1/2">0</div>
+      <div class="bg-red-600 m-1 p-5 w-1/3">1</div>
+      <div class="bg-red-600 m-1 p-5 w-1/4">1.5</div>
+      <div class="bg-red-600 m-1 p-5 w-32">2/4</div>
+      <div class="bg-red-600 m-1 p-5 w-64">3/4</div>
+      <div class="bg-red-600 m-1 p-5 w-96">1/5</div>
+    </div>
+    <!--max-width-->
+
+    <h1>width all around</h1>
+    <div class=" flex space-x-6 bg-teal-100 p-5">
+      <p class="bg-yellow-100 p-10 mb-10 max-w-lg">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum natus
+        aperiam voluptate distinctio consequatur blanditiis aspernatur omnis,
+        dolorum laborum corrupti facere, atque labore maxime adipisci.
+      </p>
+      <p class="bg-yellow-100 p-10 mb-10 max-w-lg">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum natus
+        aperiam voluptate distinctio consequatur blanditiis aspernatur omnis,
+        dolorum laborum corrupti facere, atque labore maxime adipisci.
+      </p>
+    </div>
+    <!--width of the viewport-->
+    <h1 class="mt-5">vw& width 100%</h1>
+    <div class="bg-green-500 my-2 p-5 w-screen">vw screen</div>
+    <!--100% of container-->
+    <div class="bg-green-500 my-2 p-5 w-fill">100% w screen</div>
+    <!--arbitrary-->
+    <div class="bg-green-500 my-2 w-[500px]">100% w screen</div>
+    <!--height-->
+    <h1 class="mt-5">height</h1>
+    <div class="flex space-x-2 item-end mt-20 mb">
+        <div class="bg-indigo-400 ml5 h-24">24</div>
+        <div class="bg-indigo-400 ml5 h-32">32</div>
+        <div class="bg-indigo-400 ml5 h-80">80</div>
+        <div class="bg-indigo-400 ml5 h-[5rem]">5rem</div>
+    </div>
+    <!--min-height-->
+    <h1 class="mt-5">min height full</h1>
+    <div class="h-[400px] bg-red-300 mb-5">
+        <div class=" min-h-full bg-teal-100">
+            take full height
+        </div>
+    </div>
+    <!--max-height-->
+    <h1 class="mt-5">max height full</h1>
+    <div class="h-[150px] bg-orange-300 mb-5">
+        <div class=" m-20  bg-orange-500 h-48 max-h-full">
+            take full height
+        </div>
+    </div>
+    <!--full screen height-->
+        <div class="bg-orange-500 mb-4 h-screen">
+            full screen height
+    </div>
+    <!--width auto-->
+    <div class="bg-green-400 p-5 w-auto">auto</div>
+  </body>
+</html>

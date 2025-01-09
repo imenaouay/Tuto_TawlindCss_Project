@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>borders </title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+</head>
+<body>
+    <!--border width and colors-->
+
+    <div class="border-2 border-green-100 m-10">
+        <div class="w-96 m-3 p-5 border">border all arround</div>
+        <div class="w-96 m-3 p-5 border border-4">border width</div>
+        <div class="w-96 m-3 p-5 border-4 border-red-300">border colors</div>
+        <div class="w-96 m-3 p-5 border-x-4 border-red-300">border applied to x axies </div>
+        <div class="w-96 m-3 p-5 border-r-4 border-red-300">border applied to x axies </div>
+        <div class="w-96 m-3 p-5 border-l-4 border-red-300">border applied to x axies </div>
+        <div class="w-96 m-3 p-5 border-t-4 border-red-300">border applied to x axies </div>
+        <div class="w-96 m-3 p-5 border-b-4 border-red-300">border applied to x axies </div>
+    </div>
+
+    <!--border radius-->
+
+    <div class="border-2 border-green-400 m-10">
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded">border rounded</div>
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded-lg">border rounded</div>
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded-xl">border rounded</div>
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded-3xl">border rounded</div>
+        <div class="w-96 m-3 p-5 bg-teal-200 rounded-full">border rounded</div>
+    </div>
+    <!--specific sides-->
+
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-t-xl">border top rounded</div>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-b-xl">border top rounded</div>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-r-xl">border top rounded</div>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-l-xl">border top rounded</div>
+</body>
+</html>

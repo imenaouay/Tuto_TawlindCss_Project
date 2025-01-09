@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>bg section shadows</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!--bg images-->
+    <!-- <div
+      class="h-screen w-full bg-blue-500 bg-cover bg-no-repeat bg-center"
+      style="
+        background-image: url('https://cdn.pixabay.com/photo/2023/10/29/13/21/waterfall-8350178_640.jpg');
+      "
+    ></div> -->
+
+    <!--shadows-->
+    <div class="flex flex-wrap">
+      <div class="w-[400px] mt-10 ml-4 p-3 shadow-md">shadows medium</div>
+      <div class="w-[400px] mt-7 ml-4 p-3 shadow-lg">shadows large</div>
+      <div class="w-[400px] mt-7 ml-4 p-3 shadow-xl">shadows xlarge</div>
+      <div class="w-[400px] mt-7 ml-4 p-3 shadow-2xl">shadows 2xlarge</div>
+
+      <div class="w-[400px] mt-7 ml-4 p-3 shadow-inner">shadows 2xlarge</div>
+
+      <!--color for shadows-->
+
+      <div class="w-[400px] mt-7 ml-4 p-3 shadow-lg shadow-red-900/60">
+        shadows 2xlarge
+      </div>
+    </div>
+
+    <!--gradinets-->
+    <div
+      class="h-40 bg-gradient-to-r from-teal-100 to-green-500 text-center m-10 p-40"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+      quisquam consequuntur beatae, ratione quaerat voluptatem. Assumenda
+      quibusdam officia reprehenderit cupiditate.
+    </div>
+
+    <div
+    class="h-40 bg-gradient-to-r from-cyan-500 via-[crimson]-500 to-red-500 mt-10 text-center  p-40"
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+    quisquam consequuntur beatae, ratione quaerat voluptatem. Assumenda
+    quibusdam officia reprehenderit cupiditate.
+  </div>
+  </body>
+</html>
