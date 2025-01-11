@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>grid</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body class="p-10">
+    <!--transition-->
+    <!--no transition-->
+    <button class="p-5 text-white bg-blue-500 hover:bg-green-700">
+      hello click here!
+    </button>
+    <button
+      class="ml-5 p-5 bg-blue-500 transition hover:bg-yellow-700 duration-300 esase-in-out dealy-150 text-white"
+    >
+      with transition
+    </button>
+    <!--transition & transform-->
+    <button
+      class="ml-5 p-5 bg-blue-500 transition hover:bg-yellow-700 duration-300 esase-in-out dealy-150 text-white"
+    >
+      with transition
+    </button>
+
+    <!--transformation-->
+    <button
+      class="p-5 ml-5 text-white bg-blue-500 transition ease-in-out delat-150 duration-1000 hover:-translate-y-1 hover:scale-110 hover:bg-teal-500"
+    >
+      transformation
+    </button>
+    <!--animation-->
+    <div class="flex justify-center">
+      <div class="p-20 ml-20 mt-20 w-20 bg-yellow-500 animate-spin">spin</div>
+      <div class="p-20 ml-20 mt-20 w-20 bg-yellow-500 animate-ping">ping</div>
+      <div class="p-20 ml-20 mt-20 w-20 bg-yellow-500 animate-pulse">pulse</div>
+      <div class="p-20 ml-20 mt-20 w-20 bg-yellow-500 animate-bounce">bounce</div>
+    </div>
+  </body>
+</html>
